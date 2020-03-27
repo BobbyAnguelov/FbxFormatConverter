@@ -1,0 +1,42 @@
+{
+  "FileVersion": 2,
+  "Id": "9e46203a-785a-41a3-bd18-2de2a7a7e4d7",
+  "Items": [
+    {
+      "Id": "5fa48bfb-6393-481a-b2ab-c0bd71ed50f1",
+      "Command": "",
+      "Items": [
+        {
+          "Id": "5ae255c1-876e-4bcd-b400-edd0be3b171f",
+          "Command": "-i TestFile.fbx"
+        },
+        {
+          "Id": "778e8d89-1616-468a-a9b1-623270e645a3",
+          "Command": "-o TestFileOut.fbx"
+        },
+        {
+          "Id": "12a719b6-1313-4bc5-802f-5255a8f72766",
+          "Command": "-f binary"
+        }
+      ]
+    },
+    {
+      "Id": "3f90e0f3-43db-4bbe-9976-f82862fc5ebb",
+      "Command": "",
+      "Items": [
+        {
+          "Id": "5a09faa8-7239-44a1-bd45-ab3d7e42064b",
+          "Command": "-i TestFileOut.fbx"
+        },
+        {
+          "Id": "730b2ceb-ba4c-4251-9406-2251cb22ba37",
+          "Command": "-o TestFileOut2.fbx"
+        },
+        {
+          "Id": "289c0524-0c30-4d5a-8195-359af124689c",
+          "Command": "-f ascii"
+        }
+      ]
+    }
+  ]
+}
