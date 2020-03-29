@@ -3,12 +3,30 @@
   "Id": "9e46203a-785a-41a3-bd18-2de2a7a7e4d7",
   "Items": [
     {
+      "Id": "048f9f3d-b4f7-421a-88a2-8208d935e75d",
+      "Command": "",
+      "Items": [
+        {
+          "Id": "02d89d7e-4960-4457-bcb6-3425ba20ab07",
+          "Command": "-q blah.fbx"
+        },
+        {
+          "Id": "28299385-031f-4af4-91dd-1c590319b3ef",
+          "Command": "-q SK_Chr_Attach_Female_Armor_02.fbx"
+        },
+        {
+          "Id": "c55eea3c-9a11-4ef5-b3c6-dbf81f43e261",
+          "Command": "-q TestData"
+        }
+      ]
+    },
+    {
       "Id": "5fa48bfb-6393-481a-b2ab-c0bd71ed50f1",
       "Command": "",
       "Items": [
         {
           "Id": "5ae255c1-876e-4bcd-b400-edd0be3b171f",
-          "Command": "-i TestFile.fbx"
+          "Command": "-c SK_Chr_Attach_Female_Armor_02.fbx"
         },
         {
           "Id": "778e8d89-1616-468a-a9b1-623270e645a3",
@@ -16,7 +34,11 @@
         },
         {
           "Id": "12a719b6-1313-4bc5-802f-5255a8f72766",
-          "Command": "-f binary"
+          "Command": "-binary"
+        },
+        {
+          "Id": "d8f98b79-6ee4-4bf0-bc49-bf92c8666b44",
+          "Command": "-ascii"
         }
       ]
     },
@@ -26,15 +48,15 @@
       "Items": [
         {
           "Id": "5a09faa8-7239-44a1-bd45-ab3d7e42064b",
-          "Command": "-i TestFileOut.fbx"
+          "Command": "-c TestData"
         },
         {
           "Id": "730b2ceb-ba4c-4251-9406-2251cb22ba37",
-          "Command": "-o TestFileOut2.fbx"
+          "Command": "-o Converted.fbx"
         },
         {
           "Id": "289c0524-0c30-4d5a-8195-359af124689c",
-          "Command": "-f ascii"
+          "Command": "-ascii"
         }
       ]
     }

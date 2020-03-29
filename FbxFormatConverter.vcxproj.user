@@ -4,11 +4,11 @@
     <ShowAllFiles>true</ShowAllFiles>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <LocalDebuggerCommandArguments>-i TestFileOut.fbx -o TestFileOut2.fbx -f ascii</LocalDebuggerCommandArguments>
-    <RemoteDebuggerCommandArguments>-i TestFileOut.fbx -o TestFileOut2.fbx -f ascii</RemoteDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>-c TestData -o Converted.fbx -ascii</LocalDebuggerCommandArguments>
+    <RemoteDebuggerCommandArguments>-c TestData -o Converted.fbx -ascii</RemoteDebuggerCommandArguments>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LocalDebuggerCommandArguments>-i TestFileOut.fbx -o TestFileOut2.fbx -f ascii</LocalDebuggerCommandArguments>
-    <RemoteDebuggerCommandArguments>-i TestFileOut.fbx -o TestFileOut2.fbx -f ascii</RemoteDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>-c TestData -o Converted.fbx</LocalDebuggerCommandArguments>
+    <RemoteDebuggerCommandArguments>-c TestData -o Converted.fbx</RemoteDebuggerCommandArguments>
   </PropertyGroup>
 </Project>

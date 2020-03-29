@@ -1,0 +1,4 @@
+*.ipch
+Browse.VC.db
+Browse.VC.opendb
+.suo

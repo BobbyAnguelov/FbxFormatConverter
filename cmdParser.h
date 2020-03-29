@@ -336,7 +336,7 @@ namespace cli {
                     }
                     else if ( current == nullptr )
                     {
-                        error << no_default();
+                        //error << no_default();
                         return false;
                     }
                     else
