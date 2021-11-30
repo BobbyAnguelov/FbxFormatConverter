@@ -2,3 +2,8 @@
 Browse.VC.db
 Browse.VC.opendb
 .suo
+_Build/*
+Bin/*
+.vs/*
+*.user
+FbxFormatConverter.vcxproj.user

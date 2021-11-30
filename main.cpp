@@ -402,7 +402,7 @@ int main( int argc, char* argv[] )
                 else
                 {
                     auto outputPath = cmdParser.get<std::string>( "o" );
-                    if ( inputConvertPath.empty() )
+                    if ( outputPath.empty() )
                     {
                         return fbxConverter.ConvertFbxFile( inputConvertPath, inputConvertPath, outputFormat );
                     }
